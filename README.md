@@ -1,6 +1,6 @@
 # BootHTTP
 
-?	 类似BurpSuite的Intruder，用于自定义爆破请求
+?	类似BurpSuite的Intruder，用于自定义爆破请求
 
 ***
 
@@ -46,21 +46,37 @@
 
 ### 工具截图
 
-![qidong](.\jingtai\qidong.jpg)
+![Image text](https://github.com/F6JO/BoobHttp/blob/main/jingtai/qidong.jpg?raw=true)
 
-![baocun](.\jingtai\baocun.jpg)
+![Image text](https://github.com/F6JO/BoobHttp/blob/main/jingtai/baocun.jpg?raw=true)
+
+
+
+
 
 ### 参数说明
 
 -h, --help                          					   查看帮助
+
 -q FANGFA                           				  设定请求是http还是https，默认http
+
 -C CANSHU, --canshu CANSHU           设置payloads导航文件，要求文件内是每一个替换位置的payload文件路径
+
 -r QINGQIU                          				  读取原始HTTP请求，使用{{数字}}来设置替换的位置,如：{{0}}
+
 -o BAOCUN                           				 保存日志的路径，要求txt文件。默认为当前目录下的log.txt
+
 -t XIANCHENG, --thread XIANCHENG  设定的线程数，默认20
+
 -m CHAOSHI, --time CHAOSHI             设定每个请求超时时间，默认5
+
 -c CHONGSHI, --chong CHONGSHI     设定每个请求失败的重试次数，默认3
+
 -F TIAOZHUAN, --tiao TIAOZHUAN      设定响应是否跟随跳转，默认False
+
 -K KONG, --kong KONG                		读取其一文件结束后用来替换的字符，默认为Null
+
 -p PRO, --pro PRO                   			  设置代理，格式：http:127.0.0.1:7890，注意没有//
+
+
 
